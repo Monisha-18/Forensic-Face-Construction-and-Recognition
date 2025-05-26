@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "- Create dataset of face images\r  - - Detect faces using ```deploy.prototxt``` and ```res10_300x300_ssd_iter_140000.caffemodel```. (Learn more about [face detection](https://github.com/aakashjhawar/face-detection))\r  - Extract face embeddings for each face present in the image using pretrained [OpenFace](https://cmusatyalab.github.io/openface/) model ```openface_nn4.small2.v1.t7```. \r  - Train a SVM model on the face embeddings to recognize faces",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
+}
