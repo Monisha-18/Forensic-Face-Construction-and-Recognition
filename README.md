@@ -1,10 +1,9 @@
----
+
 
 # 🕵️‍♀️ Interactive Forensic Face Sketch Construction and Recognition System
 
 > 🔍 A web application for constructing facial composites and identifying suspects in real-time using live surveillance footage.
 
----
 
 ## 📌 Project Summary
 
