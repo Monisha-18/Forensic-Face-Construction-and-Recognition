@@ -40,7 +40,7 @@ This project bridges the gap between traditional forensic sketching and modern A
 `MongoDB`
 
 **Tools**:
-`Postman`, `Jupyter Notebook`, `Git`, `VS Code`
+`Jupyter Notebook`, `Git`, `VS Code`
 
 ---
 
@@ -100,7 +100,7 @@ This project bridges the gap between traditional forensic sketching and modern A
 Officers build composite sketches using witness descriptions.
 
 🔸 **Database Matching**
-AI compares the sketch with known criminal images.
+Model compares the sketch with known criminal images.
 
 🔸 **Live Surveillance**
 Webcam/CCTV scans crowd and highlights matching faces in real-time.
