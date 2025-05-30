@@ -147,19 +147,3 @@ Webcam/CCTV scans crowd and highlights matching faces in real-time.
 | Monisha Murthy  | [Monisha on LinkedIn](https://linkedin.com/in/monisha-murthy) |
 
 ---
-
-## 📄 License
-
-MIT License – Free to use for learning and non-commercial forensic research.
-
----
-
-### 💡 Pro Tip
-
-You can make this `README.md` even better by adding:
-
-* A custom header banner (`banner.png`)
-* GIFs or demo videos
-* GitHub badges (Stars, Forks, Language)
-
-Would you like me to create that header image or a sample demo animation?
