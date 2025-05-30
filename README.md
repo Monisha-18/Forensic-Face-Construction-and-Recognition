@@ -1,128 +1,148 @@
+````markdown
+<!-- Project Banner -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/your-banner-image" alt="Forensic Face Recognition Banner" width="100%" />
+</p>
 
-```markdown
-# 🕵️‍♂️ Interactive Forensic Face Sketch Construction and Recognition System
+<h1 align="center">🕵️‍♀️ Interactive Forensic Face Sketch Construction and Recognition System</h1>
 
-A hybrid AI-driven platform that empowers law enforcement with a powerful drag-and-drop sketch tool and real-time facial recognition from surveillance video streams.
+<p align="center">
+  A full-stack AI-powered forensic platform with real-time facial recognition and an intuitive drag-and-drop sketch builder.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/Monisha-18/Forensic-Face-Construction-and-Recognition?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/Monisha-18/Forensic-Face-Construction-and-Recognition?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/Monisha-18/Forensic-Face-Construction-and-Recognition?style=flat-square" />
+</p>
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/demo-gif.gif" alt="Demo Preview" width="700"/>
+</p>
 
 ---
 
 ## 📌 Overview
 
-Forensic sketching is often limited by reliance on trained artists and incompatibility with modern AI-based systems. This project bridges that gap by providing:
+Forensic sketching often relies on skilled artists and lacks real-time digital capabilities. This project bridges that gap using:
 
-- A **React.js-based drag-and-drop interface** for creating facial composites.
-- A **deep learning recognition model (CNN)** to match sketches with real facial photos.
-- **Real-time CCTV surveillance integration** using OpenCV for live suspect identification.
+- 🧩 A **drag-and-drop UI** for composite sketch creation (React.js)
+- 🧠 A **CNN model** for face recognition against real image databases
+- 🎥 **Live CCTV feed recognition** using OpenCV and deep learning
 
 ---
 
-## 🎯 Features
+## 🚀 Features
 
-- ✏️ Drag-and-Drop Sketch Tool – Build facial composites with predefined features.
-- 🧠 CNN-Based Matching – Identify suspects by comparing sketches with real images.
-- 📹 Real-Time Surveillance – Recognize suspects live from webcam/CCTV input.
-- 🔒 Secure Access – Role-based authentication for sensitive modules.
-- ⚡ Fast and Scalable – Optimized for low latency and future integration with larger databases.
+- 🎨 Drag-and-drop canvas for sketch creation
+- 🧠 Deep Learning model for matching sketches with real faces
+- 🔍 Real-time suspect recognition via webcam/CCTV
+- 💾 MongoDB for persistent face data storage
+- 🖥️ Responsive UI for desktop devices
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer     | Technologies                           |
-|-----------|----------------------------------------|
-| Frontend  | React.js, HTML5, CSS3, Bootstrap       |
-| Backend   | Python, Flask                          |
-| AI/ML     | TensorFlow, Keras, OpenCV              |
-| Database  | MongoDB                                |
-| Tools     | VS Code, Postman, Git, Jupyter Notebook|
+| Layer      | Technologies                             |
+|------------|------------------------------------------|
+| Frontend   | React.js, HTML5, CSS3, Bootstrap         |
+| Backend    | Flask, Python 3.9+                       |
+| AI/ML      | TensorFlow, Keras, OpenCV                |
+| Database   | MongoDB                                  |
+| Dev Tools  | VS Code, Git, Postman, Jupyter Notebook  |
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
-```
-
+```bash
 forensic-face-recognition/
-├── frontend/                  # React-based UI
-├── backend/                   # Flask API with AI models
-│   ├── recognition/           # CNN models & inference code
-│   └── utils/                 # Helper functions
-├── database/                  # MongoDB config
-├── models/                    # Pretrained weights & model files
+├── frontend/              # React-based UI
+├── backend/               # Flask server + Python logic
+│   ├── recognition/       # CNN model + inference logic
+│   └── utils/             # Helper scripts
+├── database/              # MongoDB config
+├── models/                # Pre-trained weights
 ├── requirements.txt
 └── README.md
-
 ````
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Getting Started
 
-### Prerequisites
+### 🔧 Prerequisites
 
-- Python 3.9+
-- Node.js & npm
-- MongoDB
-- Git
+* Python 3.9+
+* Node.js & npm
+* MongoDB
+* Git
 
-### Installation
+### 🛠️ Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Monisha-18/Forensic-Face-Construction-and-Recognition.git
    cd Forensic-Face-Construction-and-Recognition
-````
-
-2. **To run the code**
-
-   ```bash
-
-   Open 4 terminals
-
-   Terminal 1 - npm init -y (for backend)
-                cd backend
-                npm start
-   Terminal 2 - cd backend
-                python server.py
-   Terminal 3 - cd backend
-                python image.py
-   Terminal 4 - npm i (for frontend)
-                cd frontend
-                npm start
    ```
 
+2. **Run the full system in 4 terminals**
 
-3. **MongoDB Setup**
+   ```bash
+   # Terminal 1
+   cd backend
+   npm init -y
+   npm start
 
-   * Launch a local MongoDB instance or use a cloud cluster.
-   * Configure the MongoDB URI in the backend `.env` file.
+   # Terminal 2
+   cd backend
+   python server.py
+
+   # Terminal 3
+   cd backend
+   python image.py
+
+   # Terminal 4
+   cd frontend
+   npm install
+   npm start
+   ```
+
+3. **MongoDB Configuration**
+
+   * Start MongoDB locally or use Atlas.
+   * Update the `.env` file with your MongoDB URI.
 
 ---
 
+## 🧪 Sample Use Cases
 
-## 🧬 Sample Use Cases
-
-1. **Sketch Construction** – Build a face using drag-and-drop features.
-2. **Sketch Matching** – Use CNN to compare the sketch with a real-face dataset.
-3. **Live Feed Recognition** – Get real-time alerts from webcam/CCTV feeds.
+* 🖼️ Sketch Construction – Assemble facial features from a parts library
+* 🧠 Sketch Matching – CNN matches it against the real photo database
+* 🎥 Live Feed – Detect and recognize faces from webcam or CCTV input
 
 ---
 
 ## 📊 Results
 
-* Real-time recognition 
-* Matching Accuracy (CUFS dataset): \~89%
-* Effective even in low-light and occluded environments
+* ⚡ Real-time response 
+* 🎯 \~89% matching accuracy (CUFS dataset)
+* 🌒 Works even under partial lighting & occlusion
 
 ---
 
-## 🔮 Future Enhancements
+## 🚀 Future Enhancements
 
-* 📱 Mobile App integration
-* ☁️ Cloud deployment (AWS, Azure)
-* 🧠 Advanced models (FaceNet, GAN)
-* 🕵️ Liveness detection
-* 📜 Audit trails for law enforcement review
+* 📱 Mobile version for on-the-go facial matching
+* ☁️ Cloud hosting for large-scale deployment
+* 🧠 Integration with FaceNet or GAN for photorealistic sketch enhancement
+* 🧪 Liveness detection to prevent spoofing
 
 ---
 
@@ -132,4 +152,3 @@ forensic-face-recognition/
 * **Monisha Murthy** – [LinkedIn](https://www.linkedin.com/in/monisha-murthy)
 
 ---
-
