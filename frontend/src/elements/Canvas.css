@@ -1,0 +1,45 @@
+.canvas {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    border: 3px solid #63a4ff;
+    overflow: hidden;
+}
+
+.canvas:hover {
+    background-color: #f8f8f8;
+    border-color: #4a90e2;
+}
+
+.draggable-item {
+    cursor: grab;
+    transition: none;
+    transform: none;
+    box-shadow: none;
+}
+
+.draggable-item:active {
+    cursor: grabbing;
+}
+
+/* Apply when saving image */
+.screenshot-mode .draggable-item {
+    transform: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+    zoom: 1 !important;
+    scale: 1 !important;
+}
+
+/* Optional: freeze hover effects */
+.screenshot-mode .draggable-item:hover {
+    transform: none !important;
+    box-shadow: none !important;
+    zoom: 1 !important;
+    scale: 1 !important;
+}
+.canvas.screenshot-mode img {
+    image-rendering: auto; /* or try pixelated if needed */
+    -webkit-user-drag: none;
+  }
