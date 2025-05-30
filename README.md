@@ -152,6 +152,6 @@ Webcam/CCTV scans crowd and highlights matching faces in real-time.
 | Name            | LinkedIn                                                      |
 | --------------- | ------------------------------------------------------------- |
 | Asfiya Firdouse | [Asfiya on LinkedIn](https://linkedin.com/in/asfiyafir)       |
-| Monisha Murthy  | [Monisha on LinkedIn](https://linkedin.com/in/monisha-murthy) |
+| Monisha Murthy  | [Monisha on LinkedIn](https://www.linkedin.com/in/monisha-murthy-047106263/) |
 
 ---
