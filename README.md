@@ -1,4 +1,3 @@
-Absolutely! Here's the **complete README content in pure Markdown** format — ready to paste directly into your `README.md` file:
 
 ```markdown
 # 🕵️‍♂️ Interactive Forensic Face Sketch Construction and Recognition System
