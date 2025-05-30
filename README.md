@@ -116,16 +116,16 @@ Webcam/CCTV scans crowd and highlights matching faces in real-time.
 ## 📸 Sample Screens
 
 ### LoginPage
-![LoginPage](screenshots\LoginPage.png)
+![LoginPage](screenshots/LoginPage.png)
 
 ### Homepage
-![Homepage](screenshots\Homepage.png)
+![Homepage](screenshots/Homepage.png)
 
 ### Sketch Construction Interface
-![Dashboard](screenshots\Dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### RecognitionPage
-![RecognitionPage](screenshots\RecognitionPage.png)
+![RecognitionPage](screenshots/RecognitionPage.png)
 
 ---
 
