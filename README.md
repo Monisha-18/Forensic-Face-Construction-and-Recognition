@@ -92,9 +92,6 @@ This project bridges the gap between traditional forensic sketching and modern A
      npm install
      npm start
      ```
-
-3. Configure your MongoDB URI in a `.env` file.
-
 ---
 
 ## 🧪 Real-world Scenarios
@@ -116,7 +113,19 @@ Webcam/CCTV scans crowd and highlights matching faces in real-time.
 * 🔍 CNN Model Match Results
 * 🎥 Live Face Detection Feed
 
-(*Add screenshots or a demo GIF here!*)
+## 📸 Sample Screens
+
+### LoginPage
+![LoginPage](screenshots\LoginPage.png)
+
+### Homepage
+![Homepage](screenshots\Homepage.png)
+
+### Sketch Construction Interface
+![Dashboard](screenshots\Dashboard.png)
+
+### RecognitionPage
+![RecognitionPage](screenshots\RecognitionPage.png)
 
 ---
 
